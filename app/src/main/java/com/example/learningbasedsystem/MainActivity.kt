@@ -53,7 +53,7 @@ fun WelcomeScreen(modifier: Modifier = Modifier) {
         //Welcome text
 
 
-        //Tip text 1
+        //Tip text
         
 
         //Tip text 2
