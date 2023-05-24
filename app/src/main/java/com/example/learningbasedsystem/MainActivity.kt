@@ -26,49 +26,17 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+//                    LearningBasedSystemApp()
                 }
             }
         }
     }
 }
 
-@Composable
-fun WelcomeScreen(modifier: Modifier = Modifier) {
-    Column(
-        modifier
-            .fillMaxSize()
-    ) {
-        //Top bar
-        Box(
-
-        ) {
-
-        }
-
-
-        //Book icon
-
-
-        //Welcome text
-
-
-        //Tip text 1
-        
-
-        //Tip text 2
-
-
-        //Play now button
-
-
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    LearningBasedSystemTheme {
-        WelcomeScreen()
-    }
-}
+//@Preview(showBackground = true)
+//@Composable
+//fun GreetingPreview() {
+//    LearningBasedSystemTheme {
+//        WelcomeScreen()
+//    }
+//}
